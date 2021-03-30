@@ -9,6 +9,14 @@ public class Position {
     private Integer productId;
     private BigDecimal quantity;
 
+    public Position() {
+    }
+
+    public Position(Integer productId, BigDecimal quantity) {
+        this.productId = productId;
+        this.quantity = quantity;
+    }
+
     public Integer getProductId() {
         return productId;
     }
